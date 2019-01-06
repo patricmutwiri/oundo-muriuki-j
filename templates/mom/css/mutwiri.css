@@ -1,0 +1,137 @@
+/*
+	* @author/Developer: Patrick Mutwiri
+	* Email: patwiri@gmail.com
+	* @link/GIT: https://github.com/patricmutwiri
+	* @link/Twitter: https://twitter.com/patric_mutwiri
+	* Call: +254727542899
+	* @link/Site: http://patric.xyz
+*/
+body {
+	color: #000;
+}
+.btn, input, button, textarea {
+	border-radius: 2px
+}
+.sp-megamenu-parent > li.active > a, .sp-megamenu-parent > li:hover > a {
+	color: white;
+	background: #b24845;
+	font-weight: normal;
+	border-bottom: 1px solid #22b8f0;
+}
+.offcanvas-overlay {
+    background: #22B8F080;
+}
+.offcanvas-menu {
+    background-color: #b24845;
+}
+.offcanvas-menu .offcanvas-inner .search input{
+	border-color: white;
+}
+.offcanvas-menu .offcanvas-inner .sp-module ul > li:hover a, .offcanvas-menu .offcanvas-inner .sp-module ul > li:focus a {
+    background: #26AAE1;
+}
+.offcanvas-menu .offcanvas-inner .sp-module ul > li a{
+	font-size:13px;
+}
+.sp-default-logo.hidden-xs {
+    max-height: 89px;
+}
+#sp-header {
+    box-shadow: 0 3px 3px #b2484599;
+}
+#contact-form{
+	background-color: white;
+	border-radius: 1px
+}
+#contact-form input, #contact-form textarea{
+	border-radius: 1px
+}
+#sp-main-body {
+    padding: 10px 0;
+}
+
+div.jmm-item{
+	border: 1px solid #ccc;
+}
+@media(max-width: 768px) { 
+	.blogstaff-profiles .entry-image{
+		width: 100%;
+	}
+}
+@media(min-width: 768px){
+	div.jmm-item{
+		height: 400px;
+		border: 1px solid #ccc;
+		margin: 1px;
+		border-radius: 3px;
+	}
+	.jmm-img.square img {
+	    max-height: 165px;
+	}
+}
+.acymailing_form input{
+	border-radius: 1px;
+}
+.acysubbuttons input{
+	width: 100%;
+}
+table.acymailing_form {
+	width: 100%;
+}
+.topmenu.fa::before {
+    padding: 0 2px;
+}
+.topmenu.fa::after {
+    padding: 0 2px;
+}
+.post-format{
+	border-radius: 0;
+}
+.page-header {
+    padding: 15px;
+    background-color: #b24845;
+    color: white;
+    margin: 10px 0;
+}
+.entry-header h2 {
+	font-size: 15px;
+}
+.blogstaff-profiles .entry-image {
+	max-width: 160px;
+}
+.col-xs-12.col-sm-6.col-md-4.client {
+    padding: 6px;
+    border: 1px solid #f7f7f4;
+    border-radius: 3px;
+}
+.col-xs-12.col-sm-6.col-md-4.client:hover {
+	padding-left: 10px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.sp-default-logo.visible-xs{
+	max-height: 70px;
+}
+.article-info >dd {
+	margin: 10px 5px;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li{
+	margin:2px;
+}
+.sp-megamenu-parent >li >a, .sp-megamenu-parent >li >span {
+	padding: 0 8px;
+}
+.btn{
+	padding: 10px;
+}
+img.con-image{
+	max-width: 90%;
+	border-radius: 5px;
+}
+img.img-responsive.con-image:hover {
+    border: 1px solid green;
+    transition-duration: 0.5s;
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	border-radius: 0
+}
